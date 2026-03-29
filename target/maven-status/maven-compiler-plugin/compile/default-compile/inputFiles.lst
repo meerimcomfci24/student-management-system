@@ -1,0 +1,5 @@
+/workspaces/student-management-system/src/main/java/com/example/studentmanagement/StudentManagementApplication.java
+/workspaces/student-management-system/src/main/java/com/example/studentmanagement/service/StudentService.java
+/workspaces/student-management-system/src/main/java/com/example/studentmanagement/service/StudentServiceImpl.java
+/workspaces/student-management-system/src/main/java/com/example/studentmanagement/controller/StudentController.java
+/workspaces/student-management-system/src/main/java/com/example/studentmanagement/model/Student.java
