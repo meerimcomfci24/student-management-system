@@ -1,18 +1,17 @@
 # Student Management System
 
-A backend application built with Spring Boot for managing students and courses.  
-The project demonstrates CRUD operations, REST API design, and a layered architecture approach.
+This is a simple project made with Spring Boot for my OOP assignment.
 
 ---
 
-## Features
+## What this project does
 
-- Create, update, and delete student records  
-- Retrieve all students or a specific student by ID  
-- View available courses  
+- Add students  
+- View all students  
+- Update student information  
+- Delete students  
+- View courses  
 - Assign courses to students  
-- Global exception handling  
-- Clear separation of layers (controller, service, model)
 
 ---
 
@@ -24,40 +23,48 @@ The project demonstrates CRUD operations, REST API design, and a layered archite
 
 ---
 
-## API Endpoints
+## Endpoints
 
 ### Students
 
-| Method | Endpoint | Description |
-|--------|--------|-------------|
-| GET | `/students` | Get all students |
-| GET | `/students/{id}` | Get student by ID |
-| POST | `/students` | Create new student |
-| PUT | `/students/{id}` | Update student |
-| DELETE | `/students/{id}` | Delete student |
+GET /students – get all students  
+GET /students/{id} – get student by id  
+POST /students – create student  
+PUT /students/{id} – update student  
+DELETE /students/{id} – delete student  
 
 ---
 
 ### Courses
 
-| Method | Endpoint | Description |
-|--------|--------|-------------|
-| GET | `/courses` | Get all courses |
-| GET | `/courses/{id}` | Get course by ID |
+GET /courses – get all courses  
+GET /courses/{id} – get course  
 
 ---
 
-### Enrollment
+### Extra
 
-| Method | Endpoint | Description |
-|--------|--------|-------------|
-| POST | `/students/{studentId}/courses/{courseId}` | Assign course to student |
+POST /students/{studentId}/courses/{courseId} – assign course to student  
 
 ---
 
-## Project Structure
-src/
-├── controller
-├── service
-├── model
-├── exception
+## Project structure
+
+controller – handles requests  
+service – logic  
+model – data  
+exception – error handling  
+
+---
+
+## How to run
+
+1. Open the project in IntelliJ IDEA  
+2. Run StudentManagementApplication  
+3. Open http://localhost:8080/students  
+
+---
+
+## Note
+
+This project was created for learning purposes.
